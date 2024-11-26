@@ -28,12 +28,15 @@ Proporcionar aos escritórios de advocacia uma ferramenta digital que centralize
 
 ---
 
-## 💻 Tecnologias Usadas
+## 💻 Tecnologias Utilizadas
 
-- **ESP32**
-- **MongoDB** (NoSQL)
-- **HTML, CSS e JavaScript** para a interface web
-- **Python** no backend para comunicação entre ESP32 e MongoDB
+- **Python**: Linguagem de programação principal, utilizada para o desenvolvimento do sistema, proporcionando flexibilidade e robustez na criação das funcionalidades;
+  
+- **Tkinter**: Biblioteca gráfica do Python, responsável pela criação da interface de usuário (UI), oferecendo uma experiência de interação intuitiva e agradável;
+
+- **MySQL**: Sistema de gerenciamento de banco de dados relacional, utilizado para armazenar e gerenciar as informações de processos, clientes e advogados de forma segura e eficiente;
+
+- **Visual Studio Code**: Ambiente de desenvolvimento integrado (IDE) utilizado para a escrita, depuração e controle de versão do código, facilitando o processo de desenvolvimento.
 
 <a href="https://alunosatcedu-my.sharepoint.com/:p:/g/personal/pedro_286322_alunosatc_edu_br/EdkrkmpzzRFMrjqT88XU6X8BEiP4e1D2W_rcUi4ZlGXA-w?e=MmibMd">Link referente a apresentação de slides (Power Point).</a>
 
@@ -45,4 +48,5 @@ Proporcionar aos escritórios de advocacia uma ferramenta digital que centralize
 
 <br>
 
-© 2024 Pedro Urbano Advogados. Todos os Direitos Reservados.
+© 2024 Pedro Henrique do Nascimento Urbano. Todos os Direitos Reservados. <br>
+Contato: pedrohnurbano@gmail.com
