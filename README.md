@@ -1,38 +1,48 @@
-# Sistema de Gerenciamento de Processos Digital
+# ⚖️ Sistema de Gerenciamento de Processos Digital
 
-* Descrição do Projeto:
-  Este projeto consiste em um Sistema de Gerenciamento de Processos Digital, desenvolvido como parte da disciplina de Linguagem de Programação. A aplicação foi criada para permitir o cadastro, visualização, modificação e exclusão de informações relacionadas a processos jurídicos. O sistema é projetado para escritórios de advocacia que desejam gerenciar processos de forma eficiente e organizada.
+## 🌟 Descrição do Projeto
 
-* Funcionalidades
-  CRUD Completo:
-    Cadastro, consulta, edição e exclusão de:
-    Processos (data de início, envolvidos, valor da causa, etc.)
-    Clientes (nome completo, data de nascimento, endereço, CPF, etc.)
-    Advogados (nome completo, número da OAB, endereço, CPF, etc.)
-    
-* Pesquisa Avançada:
-  Busca de informações com base em critérios específicos (número do processo, cliente ou advogado).
-  
-* Interface Gráfica:
-  Desenvolvida utilizando a biblioteca Tkinter, com telas funcionais para cada operação.
-  
-* Banco de Dados:
-  Estruturado para suportar as tabelas de processos, clientes e advogados.
-  
-* Ferramentas Utilizadas:
-  Linguagem de Programação: Python
-  Interface Gráfica: Tkinter
-  Banco de Dados: MySQL
-  Controle de Versão: Git/GitHub
-  
-* Estrutura do Projeto
-  O projeto está dividido em:
+Este projeto visa desenvolver um sistema digital para o cadastro, consulta, edição e exclusão de informações relacionadas a processos jurídicos de qualquer vara, permitindo um gerenciamento eficiente desses dados por advogados associados a um escritório de advocacia. O sistema busca atender às demandas de organização e acessibilidade de informações essenciais no dia a dia jurídico.
 
-    1. Código Fonte:
-      Integração da interface gráfica com o banco de dados.
-    2. Banco de Dados:
-      Scripts de criação e gerenciamento de tabelas.
+🔗 **Objetivo**: 
+Proporcionar aos escritórios de advocacia uma ferramenta digital que centralize e facilite a gestão de informações relacionadas a processos judiciais, clientes e advogados. Busca-se melhorar a eficiência operacional por meio de funcionalidades como cadastro detalhado, pesquisa avançada e edição segura de registros, promovendo maior agilidade, organização e controle na administração desses dados.
 
-* Equipe de Desenvolvimento
-  - Sabrina de M. Sartor: Desenvolvimento do código central e integração com Tkinter;
-  - Pedro Henrique do N. Urbano: Criação e gerenciamento do banco de dados.
+---
+
+## 🛠️ Funcionalidades Principais
+
+- **Cadastro de Dados**: Inserção de informações detalhadas sobre processos, como data de início, partes envolvidas, valor da causa e outras especificações relevantes. O sistema também permitirá o cadastro de clientes e advogados;
+- **Consulta Avançada**: Pesquisa de dados específicos com base em diferentes critérios, como número do processo, informações de clientes ou dados de advogados;
+- **Alteração e Exclusão**: Possibilidade de editar ou excluir registros de processos, clientes e advogados, garantindo a manutenção e atualização dos dados;
+- **Estruturação de Tabelas**:
+    <br> &nbsp;&nbsp;--> **Tabela de Processos**: Inclui informações essenciais como data de início, valor da causa e envolvidos;
+    <br> &nbsp;&nbsp;--> **Tabela de Clientes**: Contém dados pessoais, como nome completo, data de nascimento, endereço e CPF;
+    <br> &nbsp;&nbsp;--> **Tabela de Advogados**: Inclui informações como nome completo, número da OAB, endereço e CPF.
+
+---
+
+## 📋 Responsabilidades na Equipe
+
+- **Desenvolvimento do Código e Interface Gráfica**: Sabrina de Medeiros Sartor será responsável pela programação principal e integração da interface gráfica utilizando a biblioteca Tkinter, proporcionando uma experiência de uso intuitiva e funcional;
+- **Criação e Gerenciamento do Banco de Dados**: Pedro Henrique do Nascimento Urbano assumirá a implementação e manutenção do banco de dados, garantindo o armazenamento seguro e organizado das informações do sistema.
+
+---
+
+## 💻 Tecnologias Usadas
+
+- **ESP32**
+- **MongoDB** (NoSQL)
+- **HTML, CSS e JavaScript** para a interface web
+- **Python** no backend para comunicação entre ESP32 e MongoDB
+
+<a href="https://alunosatcedu-my.sharepoint.com/:p:/g/personal/pedro_286322_alunosatc_edu_br/EdkrkmpzzRFMrjqT88XU6X8BEiP4e1D2W_rcUi4ZlGXA-w?e=MmibMd">Link referente a apresentação de slides (Power Point).</a>
+
+---
+
+<i>Este sistema será uma ferramenta indispensável para escritórios de advocacia que buscam otimizar a gestão de seus processos e recursos humanos, assegurando eficiência e precisão no controle de informações jurídicas.</i>
+
+---
+
+<br>
+
+© 2024 Pedro Urbano Advogados. Todos os Direitos Reservados.
