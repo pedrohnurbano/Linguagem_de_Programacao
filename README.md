@@ -30,13 +30,13 @@ Proporcionar aos escritórios de advocacia uma ferramenta digital que centralize
 
 ## 💻 Tecnologias Utilizadas
 
-- **Python**: Linguagem de programação principal, utilizada para o desenvolvimento do sistema, proporcionando flexibilidade e robustez na criação das funcionalidades;
+- **Python (v.3.11)**: Linguagem de programação principal, utilizada para o desenvolvimento do sistema, proporcionando flexibilidade e robustez na criação das funcionalidades;
   
 - **Tkinter**: Biblioteca gráfica do Python, responsável pela criação da interface de usuário (UI), oferecendo uma experiência de interação intuitiva e agradável;
 
-- **MySQL**: Sistema de gerenciamento de banco de dados relacional, utilizado para armazenar e gerenciar as informações de processos, clientes e advogados de forma segura e eficiente;
+- **MySQL Workbench (v.8.0.40)**: Sistema de gerenciamento de banco de dados relacional, utilizado para armazenar e gerenciar as informações de processos, clientes e advogados de forma segura e eficiente;
 
-- **Visual Studio Code**: Ambiente de desenvolvimento integrado (IDE) utilizado para a escrita, depuração e controle de versão do código, facilitando o processo de desenvolvimento.
+- **Visual Studio Code (v.1.95.3)**: Ambiente de desenvolvimento integrado (IDE) utilizado para a escrita, depuração e controle de versão do código, facilitando o processo de desenvolvimento.
 
 <a href="https://alunosatcedu-my.sharepoint.com/:p:/g/personal/pedro_286322_alunosatc_edu_br/EdkrkmpzzRFMrjqT88XU6X8BEiP4e1D2W_rcUi4ZlGXA-w?e=MmibMd">Link referente a apresentação de slides (Power Point).</a>
 
