@@ -1,9 +1,20 @@
-campeonato_brasileiro_futebol = ("Botafogo","Fortaleza","Flamengo","Palmeiras","São Paulo","Cruzeiro","Bahia","Athletico-PR","Atlético-MG","Vasco","Bragantino","Juventude","Grêmio","Criciúma","Internacional","Vitória","Corinthians","Fluminense","Cuiabá","Atlético-GO")
+# Nome: Pedro Henrique do Nascimento Urbano | Turma: 2190 | Exercício 01
 
-print(f'Os 5 primeiros colocados: {campeonato_brasileiro_futebol[0:5]}')
-print(f'Os últimos 4 colocados: {campeonato_brasileiro_futebol[-4:]}')
-print(f'Times em ordem alfabética: {sorted(campeonato_brasileiro_futebol)}')
-print(f'Posição do time "Criciúma" na tabela:')
+receitas = []
+despesas = []
+contador = 0
 
-for "Criciúma" in campeonato_brasileiro_futebol:
-    campeonato_brasileiro_futebol.index(("Criciúma")+1)
+while(contador<2):
+    contador += 1
+    receita = float(input("Digite a receita do mês: "))
+    despesa = float(input("Digite a despesa do referido mês: "))
+    receitas.append(receita)
+    despesas.append(despesa)
+
+lucro = list(map(lambda x,y: x-y,receitas,despesas))
+media_lucro = sum(lucro)/2
+mes_prejuizo = list(filter(lambda x: x<0,lucro))
+
+print(f"O lucro para cada mês, respectivamente é de: {lucro}")
+print(f"A média total do lucro anual é: {media_lucro}")
+print(f"Meses onde ocorreram prejuízos durante o perído: {mes_prejuizo}")

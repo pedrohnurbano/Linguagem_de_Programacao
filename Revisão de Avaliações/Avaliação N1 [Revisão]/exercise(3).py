@@ -1,3 +1,5 @@
+# Nome: Pedro Henrique do Nascimento Urbano | Turma: 2190 | Exercício 03
+
 # Dicionário Vazio [{}] - "Tarefas":
 tarefas = {}
 

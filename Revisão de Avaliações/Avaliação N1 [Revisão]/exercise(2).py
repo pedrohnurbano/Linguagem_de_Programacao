@@ -1,3 +1,5 @@
+# Nome: Pedro Henrique do Nascimento Urbano | Turma: 2190 | Exercício 02
+
 funcionarios = {}
 
 while True:
